@@ -24,7 +24,6 @@ export const newsResponseMock: IData_SnippetNews = {
             "value": "new",
             "count": 1
         },
-
     ],
     "HIGHLIGHTS": [
         "…20 by <kw>Kaspersky</kw> <kw>New</kw> research has revealed that UK consumers carry out online banking on smartphones and devices that are potentially vulnerable to a security breach, despite making sure they keep their desktop or laptop computers safe. In a study commissioned by <kw>Kaspersky</kw>…",

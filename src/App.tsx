@@ -1,11 +1,12 @@
 import './App.css'
-import { NewsCard } from '@components';
+import { NewsCard, HighlightedTextarea } from '@components';
 import { newsResponseMock, duplicatesResponseMock } from './api/getNewsMock';
 
 function App() {
   return (
     <>
-      <NewsCard newsData={newsResponseMock} duplicatesData={duplicatesResponseMock}/>
+      {/* <NewsCard newsData={newsResponseMock} duplicatesData={duplicatesResponseMock}/> */}
+      <HighlightedTextarea/>
     </>
   )
 }

@@ -1,0 +1,52 @@
+.hlta {
+    position: relative;
+    width: 60%;
+    font-family: monospace;
+
+    &__highlighted-text,
+    &__textarea {
+        box-sizing: border-box;
+        margin: 0;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        font-family: inherit;
+        font-size: 16px;
+        line-height: 24px !important; 
+
+        &:hover,
+        &:focus {
+            background-color: transparent;
+        }
+    }
+
+    &__highlighted-text {
+        padding: 6px 11px;
+        position: absolute;
+        inset: 0;
+        overflow: hidden; 
+        color: white;
+        pointer-events: none; 
+        margin: 0; 
+    }
+
+    &__textarea {
+        padding: 5px 10px;
+        position: relative;
+        background: transparent;
+        color: transparent;
+        caret-color: white;
+        z-index: 1;
+    }
+    
+    &__operator {
+        color: #C00000;
+    }
+
+    &__key {
+        color: #4472C4;
+    }
+
+    &__value {
+        color: #7030A0;
+    }
+}
